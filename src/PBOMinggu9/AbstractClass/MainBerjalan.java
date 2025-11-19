@@ -1,7 +1,7 @@
 package PBOMinggu9.AbstractClass;
 
 class MainBerjalan {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Kucing kucingkampung = new Kucing();
         Ikan lumbaLumba = new Ikan();
 

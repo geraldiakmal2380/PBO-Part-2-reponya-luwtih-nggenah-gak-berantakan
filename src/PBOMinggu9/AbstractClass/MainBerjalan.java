@@ -13,5 +13,8 @@ class MainBerjalan {
 
         ani.AjakPeliharaanJalan();
         budi.AjakPeliharaanJalan();
+
+        int a = 3;
+        Math.round(a);
     }
 }

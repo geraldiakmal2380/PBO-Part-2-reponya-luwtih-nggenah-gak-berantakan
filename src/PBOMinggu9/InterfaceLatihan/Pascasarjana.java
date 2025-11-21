@@ -26,11 +26,11 @@ class Pascasarjana extends Mahasiswa implements ICumlaude, IBerprestasi{
 
     @Override
     public void menjuaraiKompetisi() {
-        //work in progress
+        System.out.println("Saya telah menjuarai kompetesi INTERNASIONAL");
     }
 
     @Override
     public void membuatPublikasiIlmiah() {
-
+        System.out.println("Saya menerbitkan artikel di jurnal INTERNASIONAL");
     }
 }

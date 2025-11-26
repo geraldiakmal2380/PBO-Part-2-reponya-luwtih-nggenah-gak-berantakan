@@ -8,8 +8,11 @@ class Program {
         Sarjana sarjanaCumlaude = new Sarjana("Dini");
         Pascasarjana masterCumlaude = new Pascasarjana("Elok");
 
-        pakRektor.bersertifikatCumlaude(mahasiswaBiasa);
-        pakRektor.bersertifikatCumlaude(sarjanaCumlaude);
-        pakRektor.bersertifikatCumlaude(masterCumlaude);
+        //pakRektor.bersertifikatCumlaude(mahasiswaBiasa);
+        //pakRektor.bersertifikatCumlaude(sarjanaCumlaude);
+        //pakRektor.bersertifikatCumlaude(masterCumlaude);
+
+        pakRektor.beriSertifikatMawapres(sarjanaCumlaude);
+        pakRektor.beriSertifikatMawapres(masterCumlaude);
     }
 }
